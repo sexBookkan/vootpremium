@@ -18,7 +18,7 @@ header("Location: $playit"); //--> For Direct Play
 
 }
 else{
-  $ex= array("error" => "Something went wrong, Check URL", "created_by" => "Avishkar Patil" );
+  $ex= array("error" => "Oh! No, unauthorised ", "created_by" => "Darshan Coorg" );
   $error =json_encode($ex);
 
   echo $error;
